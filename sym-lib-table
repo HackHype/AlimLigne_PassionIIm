@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Omron_G2RK-2 12DC")(type "KiCad")(uri "${KIPRJMOD}/Download/ul_G2RK-2-DC12/KiCADv6/2026-04-13_12-35-30.kicad_sym")(options "")(descr ""))
+  (lib (name "Panasonic_TQ2-L2-12V")(type "KiCad")(uri "${KIPRJMOD}/Download/ul_TQ2-L2-12V/KiCADv6/2026-04-13_12-49-41.kicad_sym")(options "")(descr ""))
+)
