@@ -53,16 +53,12 @@ THT
 
 ## Conditions
 
-Commander les relais
-
-## Décisions
-
-PNP car les relais ont la masse commune forcée par le fonctionement du circuit.
-...
+NPN (pour commande par arduino)
+Ic = 140 mA 
 
 ## Choix
 
-...
+2N2222A
 
 # Resistance base du transistor precedents
 
@@ -76,7 +72,17 @@ THT
 
 ## calculs
 
-...
+Ic = 0.140
+Ub = 5
+Ube = 1.2 (environ)
+Ur = Ub - Ube = 5 - 1.2 = 3.8
+R = Ur / (Ic / 10) (par principe) = 270 => 270
+
+# resistance de pulldown base transistor precedent
+
+# choix
+
+10 k ohm
 
 # 555
 
@@ -87,6 +93,10 @@ THT
 ## conditions 
 
 THT
+
+## choix
+
+TLC555
 
 # potentiometre
 
@@ -100,9 +110,23 @@ Avec au moins 1 interrupteurs
 
 ...
 
+# R1 charge
+
+## calculs
+
+environ 10x plus petite que potentiometre
+
+## choix
+
+470 ohm
+
+# diodes charges décharge
+
+## choix
+
 # condensateur de charge décharge
 
-# conditions
+## conditions
 
 céramique si la valeur existe, sinon à film
 dimensionné pour 1 kHz (Arduino environ 500 Hz ou 1kHz)
@@ -116,11 +140,11 @@ C = 1 / (0.693 * Rpot * f)
 
 # choix
 
-...
+270 nF
 
 # transistor driver MOSFET
 
-# qte sur le PCB
+## qte sur le PCB
 
 1 
 
@@ -131,19 +155,17 @@ NPN car MOSFET est de type P
 ## calculs
 
 ```
-T = 1 / f
-  = 1 / 1000 = 0.001
-ton = 0.01 * T
-    = 0.01 * 0.001 = 10e-6
-I_g = Qg / ton
-    = 180e-9 / 10e-6 = 18e-3
-R_g = Ucc / I_g
-    = 20 / 18e-3 = 1.11e3 =~ 1e3 =(E12) 1k ohm
+Hfe = 50 (apeupret)
+I_c = 18e-3
+U = 12
+Ube = 1.2 (environ)
+Ur = 10.8 
+R = Ur / (Ic / Hfe) = 600 k =(E12) 1k
 ```
 
 # choix
 
-...
+2N3904
 
 # MOSFET
 
@@ -158,19 +180,42 @@ R_ds_on << 1 ohm
 
 type P pour correspondre au fonctionnement des autres alimentations et éviter les saut de tension aux changement d'alimentations
 
+## calculs
+
+```
+T = 1 / f
+  = 1 / 1000 = 0.001
+ton = 0.01 * T
+    = 0.01 * 0.001 = 10e-6
+I_g = Qg / ton
+    = 180e-9 / 10e-6 = 18e-3
+R_g = Ucc / I_g
+    = 20 / 18e-3 = 1.11e3 =~ 1e3 =(E12) 1k ohm
+```
+
 ## choix
 
 IRF4905PbF
 
-# condensateur de découplage
+# transistor bloquage sens
 
-## qte par PCB
+## condition 
 
-1 ou 0 selon configuration
+PNP
 
-## choix
+## quantité
 
-...
+1
 
+## choix 
 
+MPSA56
 
+# calcul
+
+Ic = 500 mA
+Ib = Ic / 10 = 50 mA
+U = 12 
+Ube = 1.2
+Ur = 10.8
+R = 10.8 / 0.05 = 216 =(E12) 220
