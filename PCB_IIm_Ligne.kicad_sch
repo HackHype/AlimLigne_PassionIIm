@@ -8123,30 +8123,6 @@
 			"AABJRU5ErkJggg=="
 		)
 	)
-	(global_label "Traction_P"
-		(shape input)
-		(at 401.32 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0189aabc-eda0-4702-8713-8392b2cf4055")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.4773 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RAIL_1"
 		(shape input)
 		(at 401.32 38.1 180)
@@ -8280,6 +8256,30 @@
 		(uuid "0fa892a0-abfa-4df4-8ae5-024518c93196")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 105.993 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Traction_P"
+		(shape input)
+		(at 426.72 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1069d193-03ea-4f9c-be92-158a8ae784ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 439.5627 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8459,7 +8459,7 @@
 			)
 		)
 	)
-	(global_label "RelaiBistableSensA_N"
+	(global_label "RelaiBistableSensB_N"
 		(shape input)
 		(at 516.89 55.88 0)
 		(fields_autoplaced yes)
@@ -8471,7 +8471,7 @@
 		)
 		(uuid "40be15c6-6484-4c2e-b657-4194573267c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 540.1951 55.88 0)
+			(at 540.3765 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8576,30 +8576,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "Traction_P"
-		(shape input)
-		(at 426.72 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "499125da-1fef-41bf-b22c-5b5e41e17bb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 439.5627 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8773,6 +8749,30 @@
 	)
 	(global_label "Traction_P"
 		(shape input)
+		(at 401.32 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d94dace-b55a-49a0-a852-78ec6063c914")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 388.4773 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Traction_P"
+		(shape input)
 		(at 259.08 -25.4 270)
 		(fields_autoplaced yes)
 		(effects
@@ -8821,7 +8821,7 @@
 	)
 	(global_label "LED_SensB"
 		(shape input)
-		(at 374.65 116.84 0)
+		(at 374.65 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8831,7 +8831,7 @@
 		)
 		(uuid "8e2f1754-a90c-4d21-9b75-d7d378c149ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.7951 116.84 0)
+			(at 387.7951 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8941,7 +8941,7 @@
 	)
 	(global_label "RelaiBistableSensA"
 		(shape input)
-		(at 378.46 172.72 0)
+		(at 378.46 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8951,7 +8951,7 @@
 		)
 		(uuid "9c67439a-2cbf-43f8-9a31-f2fc7a0a3696")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 399.467 172.72 0)
+			(at 399.467 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9061,7 +9061,7 @@
 	)
 	(global_label "RelaiBistableSensB"
 		(shape input)
-		(at 378.46 170.18 0)
+		(at 378.46 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9071,7 +9071,7 @@
 		)
 		(uuid "b61e8090-7d45-4355-9488-a3ccfd3096e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 399.6484 170.18 0)
+			(at 399.6484 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9445,7 +9445,7 @@
 	)
 	(global_label "LED_SensA"
 		(shape input)
-		(at 374.65 119.38 0)
+		(at 374.65 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9455,7 +9455,7 @@
 		)
 		(uuid "ff7d481b-dc03-4fad-a524-5b0a8f704c47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.6137 119.38 0)
+			(at 387.6137 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10076,7 +10076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20cd7887-68c4-48b8-8578-d1362c469fde")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 346.71 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10143,7 +10143,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -10687,7 +10687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "315a5fa6-0fdd-48a9-a4f7-bf410492cd5b")
-		(property "Reference" "Q9"
+		(property "Reference" "Q4"
 			(at 228.6 -24.1301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10754,7 +10754,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "Q9")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -10877,7 +10877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32ac0b53-9888-4e3f-b788-ce905e93b774")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 74.5333 -49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +10959,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11443,7 +11443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1a6569-c344-4648-a09d-837233198647")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 212.09 128.6509 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +11507,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12046,7 +12046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65a94e87-fa1d-4688-b8c5-0908bdcc9aad")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 52.832 -35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12110,7 +12110,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12206,7 +12206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "696e504f-e112-4d7f-996c-ba11855e6b8c")
-		(property "Reference" "C7"
+		(property "Reference" "C3"
 			(at 30.48 -33.0201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12270,7 +12270,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "C7")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13385,7 +13385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a11fdb2c-8609-45ae-aedf-6664813ece85")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 191.77 128.6509 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13449,7 +13449,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13726,7 +13726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab06d510-7b91-4df7-a728-999a4485a75b")
-		(property "Reference" "Q8"
+		(property "Reference" "Q3"
 			(at 544.83 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13793,7 +13793,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "Q8")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -15777,7 +15777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb859d0f-25d8-4065-931f-a5cb5a12dafc")
-		(property "Reference" "Q7"
+		(property "Reference" "Q2"
 			(at 478.79 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15844,7 +15844,7 @@
 		(instances
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
-					(reference "Q7")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
