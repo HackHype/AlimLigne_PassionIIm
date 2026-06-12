@@ -55,34 +55,26 @@ THT
 
 NPN (pour commande par arduino)
 Ic = 140 mA 
+THT
 
 ## Choix
 
 2N2222A
 
-# Resistance base du transistor precedents
-
-## qte par PCB
-
-2 ou 0 selon configuration
-
-# conditions 
-
-THT
-
 ## calculs
 
+```
 Ic = 0.140
 Ub = 5
 Ube = 1.2 (environ)
 Ur = Ub - Ube = 5 - 1.2 = 3.8
+//Résistance pour la base
 R = Ur / (Ic / 10) (par principe) = 270 => 270
-
-# resistance de pulldown base transistor precedent
-
-# choix
-
+P_r = U_R^2 / R = 3.8^2 / 270 = 0.053 => 250 mW
+//Résistance pull down
 10 k ohm
+P_r = U_R^2 / R = 5^2 / 10k = 0.003 => 250 mW
+```
 
 # 555
 
@@ -161,6 +153,7 @@ U = 12
 Ube = 1.2 (environ)
 Ur = 10.8 
 R = Ur / (Ic / Hfe) = 600 k =(E12) 1k
+P_r = U_R^2 / R = 10.8^2 / 1k = 116.64m => 250 mW
 ```
 
 # choix
@@ -191,6 +184,8 @@ I_g = Qg / ton
     = 180e-9 / 10e-6 = 18e-3
 R_g = Ucc / I_g
     = 20 / 18e-3 = 1.11e3 =~ 1e3 =(E12) 1k ohm
+P_R = U_R^2 / R 
+    = 20^2 / 1e3 = 400e-3 => 500 mW !!
 ```
 
 ## choix
@@ -213,9 +208,11 @@ MPSA56
 
 # calcul
 
+```
 Ic = 500 mA
 Ib = Ic / 10 = 50 mA
 U = 12 
 Ube = 1.2
 Ur = 10.8
 R = 10.8 / 0.05 = 216 =(E12) 220
+```
