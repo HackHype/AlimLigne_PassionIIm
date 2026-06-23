@@ -69,7 +69,7 @@ Ub = 5
 Ube = 1.2 (environ)
 Ur = Ub - Ube = 5 - 1.2 = 3.8
 //Résistance pour la base
-R = Ur / (Ic / 10) (par principe) = 270 => 270
+R = Ur / (Ic / 10) (par principe) = 270 => 270 ohm
 P_r = U_R^2 / R = 3.8^2 / 270 = 0.053 => 250 mW
 //Résistance pull down
 10 k ohm
@@ -111,6 +111,7 @@ environ 10x plus petite que potentiometre
 ## choix
 
 470 ohm
+TODO vérifier puissance
 
 # diodes charges décharge
 
@@ -185,7 +186,7 @@ I_g = Qg / ton
 R_g = Ucc / I_g
     = 20 / 18e-3 = 1.11e3 =~ 1e3 =(E12) 1k ohm
 P_R = U_R^2 / R 
-    = 20^2 / 1e3 = 400e-3 => 500 mW !!
+    = 20^2 / 1e3 = 400e-3 =(réduit car duty time faible) 250 mW
 ```
 
 ## choix
@@ -204,7 +205,8 @@ PNP
 
 ## choix 
 
-MPSA56
+MPSA56 
+TODO remplacer par un BJT
 
 # calcul
 
@@ -215,4 +217,5 @@ U = 12
 Ube = 1.2
 Ur = 10.8
 R = 10.8 / 0.05 = 216 =(E12) 220
+P_r = U_R^2 / R = 10.8^2 / 220 = 0,530 => 750 mW !!!
 ```

@@ -9489,7 +9489,7 @@
 				)
 			)
 		)
-		(property "Value" "260"
+		(property "Value" "270"
 			(at 523.24 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11349,7 +11349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R1k"
+		(property "Value" "470"
 			(at 113.03 -46.9901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12763,7 +12763,7 @@
 				)
 			)
 		)
-		(property "Value" "260"
+		(property "Value" "270"
 			(at 457.2 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13556,7 +13556,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R10k"
+		(property "Value" "10K"
 			(at 248.92 -40.6401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14363,7 +14363,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R10k"
+		(property "Value" "10K"
 			(at 217.17 -16.5101 0)
 			(show_name no)
 			(do_not_autoplace no)
