@@ -111,7 +111,7 @@ environ 10x plus petite que potentiometre
 ## choix
 
 470 ohm
-TODO vérifier puissance
+1/4 watt
 
 # diodes charges décharge
 
@@ -189,9 +189,39 @@ P_R = U_R^2 / R
     = 20^2 / 1e3 = 400e-3 =(réduit car duty time faible) 250 mW
 ```
 
+// changer pour fréquence 10 kHz
+
 ## choix
 
 IRF4905PbF
+
+# diode roue libre
+
+## conditions
+
+If = 4 A
+Ur = 40 V
+rapide
+
+## choix
+
+MUR420G
+
+# resistance shunt
+
+## condition
+
+4 A
+
+## calculs
+
+P = I^2 / R = 4^2 / 0.1 = 1.6 W 
+
+## choix
+
+0.1 ohm
+<= 1 %
+2 W
 
 # transistor bloquage sens
 
@@ -207,6 +237,7 @@ PNP
 
 MPSA56 
 TODO remplacer par un BJT
+IRFU5305PBF (potentiellement)
 
 # calcul
 
