@@ -1049,6 +1049,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4318,6 +4484,12 @@
 		(uuid "8d40a72c-0446-40a7-853b-640821e016c5")
 	)
 	(junction
+		(at 568.96 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbb385e6-05a5-46bc-b10d-8e7a9db3c578")
+	)
+	(junction
 		(at 473.71 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4454,6 +4626,16 @@
 			(type default)
 		)
 		(uuid "172a4530-e2d7-467b-af80-bb2510634549")
+	)
+	(wire
+		(pts
+			(xy 580.39 147.32) (xy 580.39 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ed262a-39dd-4601-92c7-0ab56ab80d7e")
 	)
 	(wire
 		(pts
@@ -4867,6 +5049,16 @@
 	)
 	(wire
 		(pts
+			(xy 568.96 143.51) (xy 568.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcb4e74-7c7d-4041-b6b8-ec1570285b13")
+	)
+	(wire
+		(pts
 			(xy 322.58 43.18) (xy 332.74 43.18)
 		)
 		(stroke
@@ -4967,6 +5159,16 @@
 	)
 	(wire
 		(pts
+			(xy 568.96 130.81) (xy 568.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a2b836-76cf-4ed0-a221-3c0021b6ce90")
+	)
+	(wire
+		(pts
 			(xy 530.86 139.7) (xy 530.86 142.24)
 		)
 		(stroke
@@ -5004,6 +5206,16 @@
 			(type default)
 		)
 		(uuid "8b490616-be23-47b6-aab7-745184dee823")
+	)
+	(wire
+		(pts
+			(xy 580.39 133.35) (xy 568.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb5c558-8c96-4b8a-927e-4b807dd477a6")
 	)
 	(wire
 		(pts
@@ -5067,6 +5279,16 @@
 	)
 	(wire
 		(pts
+			(xy 568.96 133.35) (xy 568.96 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade1d164-75ee-4eae-8927-9854e07735a0")
+	)
+	(wire
+		(pts
 			(xy 473.71 39.37) (xy 488.95 39.37)
 		)
 		(stroke
@@ -5084,6 +5306,16 @@
 			(type default)
 		)
 		(uuid "b09bab32-9447-40b7-b5ba-5a7841996c4e")
+	)
+	(wire
+		(pts
+			(xy 580.39 135.89) (xy 580.39 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b194000f-fac7-47c4-83f7-624c9b7e06ef")
 	)
 	(wire
 		(pts
@@ -5945,6 +6177,30 @@
 			)
 		)
 	)
+	(global_label "ResistanceShunt"
+		(shape input)
+		(at 568.96 148.59 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a61f360-04b7-4948-a351-da5c128b6f61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 568.96 167.1779 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Traction_P"
 		(shape input)
 		(at 393.7 63.5 180)
@@ -6086,6 +6342,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "+20V"
+		(shape input)
+		(at 568.96 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98847462-7b6a-482c-a947-0cd1945191fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 568.96 122.7448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6390,6 +6670,30 @@
 		(uuid "dbfbe5c6-8065-49b9-a4e5-66f837481a83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 385.86 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ResistanceShunt"
+		(shape input)
+		(at 427.99 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de29c2a5-08b2-4b6d-8e6f-861889c0851e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 446.5779 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7006,7 +7310,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
-		(at 425.45 168.91 180)
+		(at 422.91 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7017,7 +7321,7 @@
 		(fields_autoplaced yes)
 		(uuid "10f55a40-159c-4dde-99a7-d24a836bc63e")
 		(property "Reference" "J4"
-			(at 425.45 152.4 0)
+			(at 422.91 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7027,7 +7331,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x08"
-			(at 425.45 154.94 0)
+			(at 422.91 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7037,7 +7341,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal"
-			(at 425.45 168.91 0)
+			(at 422.91 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,7 +7352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 425.45 168.91 0)
+			(at 422.91 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,7 +7363,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 425.45 168.91 0)
+			(at 422.91 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,7 +8854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 567.182 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -9301,6 +9605,88 @@
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 580.39 139.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66d32be8-4cea-476a-9f8b-1d42565a585e")
+		(property "Reference" "D6"
+			(at 582.93 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 582.93 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-15_P10.16mm_Horizontal"
+			(at 580.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 580.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 580.39 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ccc7586-7f79-4176-8e70-197a1b2e0fa7")
+		)
+		(pin "1"
+			(uuid "74387bf2-f0f5-4f5c-8fda-04e309e7b5ac")
+		)
+		(instances
+			(project "PCB_IIm_Ligne"
+				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13050,6 +13436,84 @@
 			(project "PCB_IIm_Ligne"
 				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 580.39 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fab6946c-795e-4b2c-acd2-47af90de4434")
+		(property "Reference" "#PWR018"
+			(at 580.39 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 580.39 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 580.39 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 580.39 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 580.39 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eb56297-c586-426d-8574-3d2fdd320b22")
+		)
+		(instances
+			(project "PCB_IIm_Ligne"
+				(path "/d84f5e4c-0932-47c3-8773-68a666a48e8b"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
