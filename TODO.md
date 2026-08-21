@@ -11,5 +11,6 @@ TODO
 
 # Pour commande PCB
 - Réordonné les bornes sur les connecteurs
-- Vérifier tous les étiquettes
+- Séparer interrupteur pot et led "traction en service" pour la version gare
+- Vérifier toutes les étiquettes
 - Dessiner le PCB
