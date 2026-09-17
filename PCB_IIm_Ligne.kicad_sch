@@ -4395,7 +4395,7 @@
 		)
 		(uuid "f4374ec7-9466-4c27-8ad2-1b13679dc214")
 	)
-	(text "Connecteur Alimentation\n\n"
+	(text "Connecteur Puissance 5.08mm\n\n\n"
 		(exclude_from_sim no)
 		(at 312.166 144.272 0)
 		(effects
